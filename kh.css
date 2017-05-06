@@ -1,0 +1,100 @@
+*{
+    font-family: Roboto;
+    color: white;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+}
+
+html, body{
+    background-color: #2E3038;
+    height: 100%;
+    width: 100%;
+}
+
+div{display: block;}
+
+p.title{
+    font-size: 26px;
+}
+
+.nav-link{
+    transition: color 1s;
+    -webkit-transition: color 1s;
+    color: #ffffff;
+}
+
+.nav-link:link{
+    color: #ffffff;
+}
+
+.nav-link:hover, .nav-link:focus{
+    transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+    color: #648AF5;
+}
+
+#wrapper{
+    width: 1000px;
+    margin: auto;
+    /*height: 100%;*/
+    background-color: #23242E;
+    border-left: 1px solid #FF6600;
+    border-right: 1px solid #FF6600;
+}
+
+#kh-avatar{
+    width: 350px;
+    height: 350px;
+    margin: auto;
+}
+
+footer{
+    /*z-index: 1;*/
+    /*bottom: 0px;*/
+    border-top: 1px solid #FF6600;
+    width: 100%;
+    /*position: absolute;*/
+    display: block;
+}
+
+.footer-item{
+    margin: 10px 20px 10px 20px;
+    display: inline-block;
+}
+
+.footer-item a{
+    display: block;
+    padding: 10px 15px 10px 15px;
+}
+
+.footer-img{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.footer-item:hover img{
+    transition: color 0.2s, filter 0.2s;
+    -webkit-transition: color 0.2s, filter 0.2s;
+    filter: blur(2px);
+    -webkit-filter: blur(2x);
+}
+
+.footer-item:hover p{
+    transition: color 0.2s, filter 0.2s;
+    -webkit-transition: color 0.2s, filter 0.2s;
+}
+
+.footer-item p, .footer-item img{
+    transition: color 1s, filter 0.5s;
+    -webkit-transition: color 1s, filter 0.5s;
+}
+
+#twitter:hover          p{color:#1DA1F2;}
+#youtube:hover          p{color:#E62119;}
+#soundcloud:hover       p{color:#FC541F;}
+#steam:hover            p{color:#4C8BAE;}
+#email:hover            p{color:#D54B3D;}
