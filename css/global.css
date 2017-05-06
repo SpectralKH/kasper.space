@@ -1,0 +1,120 @@
+div.bggg {
+  width: 100%;
+  height: 100%;
+  z-index: -8;
+  position: fixed; }
+
+img.bggg {
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -9;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+main.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+
+body > header {
+  display: flex;
+  height: 95px;
+  margin-bottom: 20px;
+  justify-content: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1); }
+  body > header nav {
+    max-width: 1000px;
+    width: 100%;
+    display: flex; }
+    body > header nav a {
+      width: 25%;
+      font-family: "Raleway";
+      font-size: 25px;
+      font-weight: 500;
+      line-height: 95px;
+      text-align: center;
+      color: #000000;
+      height: 95px; }
+      body > header nav a div {
+        max-height: 95px;
+        overflow: hidden; }
+    body > header nav div.bg {
+      position: absolute;
+      z-index: -1;
+      width: 25%;
+      max-width: 250px;
+      height: 95px;
+      box-sizing: border-box;
+      border: 0px solid #444444;
+      transition: background-color 200ms ease-out; }
+  body > header a:hover div.bg, body > header a:focus div.bg {
+    background-color: rgba(0, 0, 0, 0.1); }
+
+body > main {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+  body > main div.main.wrapper {
+    max-width: 1020px; }
+    body > main div.main.wrapper div.blog.wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+      body > main div.main.wrapper div.blog.wrapper div.blog.item {
+        width: 320px;
+        height: 500px;
+        border: 0px solid #444444;
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.1);
+        transition: background-color 200ms ease-out; }
+        body > main div.main.wrapper div.blog.wrapper div.blog.item h2 {
+          font-weight: normal;
+          font-family: "Raleway";
+          margin: 0px 0px;
+          text-align: center;
+          font-size: 22px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          background-color: rgba(255, 255, 255, 0.15); }
+        body > main div.main.wrapper div.blog.wrapper div.blog.item p {
+          margin: 8px 8px;
+          font-family: "Roboto", sans-serif;
+          font-size: 16px; }
+      body > main div.main.wrapper div.blog.wrapper div.blog.item:hover, body > main div.main.wrapper div.blog.wrapper div.blog.item:focus {
+        background-color: rgba(0, 0, 0, 0.25); }
+
+main.my-stuff-page {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+  main.my-stuff-page a {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 320px;
+    text-align: center;
+    color: #000000;
+    transition: background-color 200ms ease-out;
+    border-radius: 3px;
+    border: 1px solid rgba(97, 97, 97, 0.5); }
+    main.my-stuff-page a:hover, main.my-stuff-page a:focus {
+      background-color: rgba(0, 0, 0, 0.17); }
+
+main.eden-wallpapers-page img {
+  max-height: 200px; }
+
+/*# sourceMappingURL=global.css.map */
